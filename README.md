@@ -17,7 +17,7 @@ A collection of components that can be used in your SwiftUI project.
 `> SideMenu/`
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/f84029fa-4a54-4b73-b2d2-16324aefa9d6" width="30%">
+<img src="https://github.com/user-attachments/assets/f84029fa-4a54-4b73-b2d2-16324aefa9d6" width="50%">
 </div>
 
 ## Contribute
