@@ -16,13 +16,13 @@ A collection of examples project using ***`SwiftUI`***, ***`Combine`***, ***`Asy
 
 ## Projects
 
-### [*`> SideMenu/`*][SideMenu]
+### [*`> AuthFirebase/`*][AuthFirebase]
 
 > [!NOTE]
-> A simple example demonstrating how to create a side menu with SwiftUI, featuring support for both light and dark modes.
+> A complete example covering everything you need for user authentication with `Firebase`, including `login`, `signup`, `logout`, and `account deletion`, utilizing asynchronous programming with `async/await`.
 
 <div align="center">
-<img src="Resources/SideMenu.gif">
+<img src="Resources/AuthFirebase.gif">
 </div>
 
 ### [*`> AuthMovieDB/`*][AuthMovieDB]
@@ -32,6 +32,15 @@ A collection of examples project using ***`SwiftUI`***, ***`Combine`***, ***`Asy
 
 <div align="center">
 <img src="Resources/AuthMovieDB.gif">
+</div>
+
+### [*`> SideMenu/`*][SideMenu]
+
+> [!NOTE]
+> A simple example demonstrating how to create a side menu with SwiftUI, featuring support for both light and dark modes.
+
+<div align="center">
+<img src="Resources/SideMenu.gif">
 </div>
 
 ## Contribute
@@ -52,5 +61,6 @@ MIT
 
 [discord]: https://discord.com/users/744755977684779038
 [issue]: https://github.com/ivansaul/Flutter-UI-Kit/issues
+[AuthFirebase]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/AuthFirebase
 [AuthMovieDB]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/AuthMovieDB
 [SideMenu]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/SideMenu
