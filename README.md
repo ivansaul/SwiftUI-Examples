@@ -3,26 +3,32 @@
 <div align="center">
 
 <h1 style="border-bottom: none">
-    <b><a href="#">SwiftUI Components</a></b>
+    <b><a href="#">SwiftUI Examples</a></b>
 </h1>
 
-A collection of components that can be used in your SwiftUI project.
+A collection of examples project using ***`SwiftUI`***, ***`Combine`***, ***`Async/Await`***, ***`Animations`***, and more.
 
-[![Made-with-flutter](https://img.shields.io/badge/Made%20with-SwiftUI-orange)](https://developer.apple.com/swiftui/)
-![GitHub repo size](https://img.shields.io/github/repo-size/ivansaul/SwiftUI-Components)
+[![Made-with-swift](https://img.shields.io/badge/Made%20with-SwiftUI-orange)](https://developer.apple.com/swiftui/)
+![GitHub repo size](https://img.shields.io/github/repo-size/ivansaul/SwiftUI-Examples)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 
-## Screenshots
+## Projects
 
-`> SideMenu/`
+### [*`> SideMenu/`*][SideMenu]
+
+> [!NOTE]
+> A simple example demonstrating how to create a side menu with SwiftUI, featuring support for both light and dark modes.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/f84029fa-4a54-4b73-b2d2-16324aefa9d6" width="50%">
+<img src="Resources/SideMenu.gif" width="50%">
 </div>
 
-[**`> AuthMovieDB/`**][AuthMovieDB]
+### [*`> AuthMovieDB/`*][AuthMovieDB]
+
+> [!NOTE]
+> A simple example demonstrating how to authenticate with third-party services. This case uses `The Movie DB (TMDB)` API, showcasing the integration of an authentication service, secure session storage, and user profile management.
 
 <div align="center">
 <img src="Resources/AuthMovieDB.gif" width="50%">
@@ -30,7 +36,7 @@ A collection of components that can be used in your SwiftUI project.
 
 ## Contribute
 
-Contributions are welcome.
+Contributions are welcome. If you have project, make a pull request or create issue with link to repo.
 
 ## Facing any Issue?
 
@@ -47,3 +53,4 @@ MIT
 [discord]: https://discord.com/users/744755977684779038
 [issue]: https://github.com/ivansaul/Flutter-UI-Kit/issues
 [AuthMovieDB]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/AuthMovieDB
+[SideMenu]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/SideMenu
