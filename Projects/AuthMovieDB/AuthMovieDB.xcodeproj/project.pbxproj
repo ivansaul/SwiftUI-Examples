@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7221E2C2CBB3447009A4517 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7221E2B2CBB3447009A4517 /* Errors.swift */; };
+		C7221E2E2CBB438E009A4517 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7221E2D2CBB438E009A4517 /* ProfileView.swift */; };
+		C7221E302CBB43A7009A4517 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7221E2F2CBB43A7009A4517 /* LoginView.swift */; };
+		C72C19E12CBA34F5002988F3 /* AuthMovieDBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19E02CBA34F5002988F3 /* AuthMovieDBApp.swift */; };
+		C72C19E32CBA34F5002988F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19E22CBA34F5002988F3 /* ContentView.swift */; };
+		C72C19E52CBA34F6002988F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72C19E42CBA34F6002988F3 /* Assets.xcassets */; };
+		C72C19E82CBA34F6002988F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72C19E72CBA34F6002988F3 /* Preview Assets.xcassets */; };
+		C72C19F12CBA3B41002988F3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19F02CBA3B41002988F3 /* AuthService.swift */; };
+		C72C19F32CBA5294002988F3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19F22CBA5294002988F3 /* NetworkManager.swift */; };
+		C72C19F62CBA5355002988F3 /* HTTPResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19F52CBA5355002988F3 /* HTTPResource.swift */; };
+		C72C19F92CBA53F6002988F3 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19F82CBA53F6002988F3 /* APIConstants.swift */; };
+		C72C19FC2CBA5679002988F3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19FB2CBA5679002988F3 /* AuthViewModel.swift */; };
+		C72C19FE2CBA5751002988F3 /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19FD2CBA5751002988F3 /* AuthModels.swift */; };
+		C72C1A002CBA5803002988F3 /* AuthResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C19FF2CBA5803002988F3 /* AuthResources.swift */; };
+		C74F14782CBDABF4000838C6 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C74F14772CBDABF4000838C6 /* KeychainSwift */; };
+		C74F147C2CBDAC80000838C6 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F147B2CBDAC80000838C6 /* KeychainManager.swift */; };
+		C791CD0C2CBC319600328BC2 /* UserDetailsResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C791CD0B2CBC319600328BC2 /* UserDetailsResource.swift */; };
+		C7BEFBB72CBEDC0D008F3FAD /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEFBB62CBEDC0D008F3FAD /* PreviewData.swift */; };
+		C7BEFBB92CBEDCF6008F3FAD /* UserDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = C7BEFBB82CBEDCF6008F3FAD /* UserDetails.json */; };
+		C7BEFBBB2CBEDEE2008F3FAD /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEFBBA2CBEDEE2008F3FAD /* MockAuthService.swift */; };
+		C7BEFBBE2CBEE3B8008F3FAD /* MockKeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEFBBD2CBEE3B8008F3FAD /* MockKeychainManager.swift */; };
+		C7C74D2E2CBF5FDC00B84872 /* AuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C74D2D2CBF5FDC00B84872 /* AuthServiceTests.swift */; };
+		C7D3783D2CBB8749002422AB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D3783C2CBB8749002422AB /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7C74D282CBF5EE000B84872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C72C19D52CBA34F5002988F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C72C19DC2CBA34F5002988F3;
+			remoteInfo = AuthMovieDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7221E2B2CBB3447009A4517 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C7221E2D2CBB438E009A4517 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C7221E2F2CBB43A7009A4517 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C72C19DD2CBA34F5002988F3 /* AuthMovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthMovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72C19E02CBA34F5002988F3 /* AuthMovieDBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMovieDBApp.swift; sourceTree = "<group>"; };
+		C72C19E22CBA34F5002988F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C72C19E42CBA34F6002988F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C72C19E72CBA34F6002988F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C72C19F02CBA3B41002988F3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C72C19F22CBA5294002988F3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C72C19F52CBA5355002988F3 /* HTTPResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResource.swift; sourceTree = "<group>"; };
+		C72C19F82CBA53F6002988F3 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		C72C19FB2CBA5679002988F3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C72C19FD2CBA5751002988F3 /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		C72C19FF2CBA5803002988F3 /* AuthResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResources.swift; sourceTree = "<group>"; };
+		C74F147B2CBDAC80000838C6 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		C791CD0B2CBC319600328BC2 /* UserDetailsResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsResource.swift; sourceTree = "<group>"; };
+		C7BEFBB62CBEDC0D008F3FAD /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		C7BEFBB82CBEDCF6008F3FAD /* UserDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserDetails.json; sourceTree = "<group>"; };
+		C7BEFBBA2CBEDEE2008F3FAD /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		C7BEFBBD2CBEE3B8008F3FAD /* MockKeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeychainManager.swift; sourceTree = "<group>"; };
+		C7C74D242CBF5EE000B84872 /* AuthMovieDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthMovieDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C74D2D2CBF5FDC00B84872 /* AuthServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceTests.swift; sourceTree = "<group>"; };
+		C7D1D55F2CBAFF0200E7419C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C7D3783C2CBB8749002422AB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C72C19DA2CBA34F5002988F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74F14782CBDABF4000838C6 /* KeychainSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C74D212CBF5EE000B84872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7221E312CBB43B1009A4517 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C72C19FD2CBA5751002988F3 /* AuthModels.swift */,
+				C7D3783C2CBB8749002422AB /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7221E322CBB43C9009A4517 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7221E2F2CBB43A7009A4517 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7221E332CBB43D9009A4517 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C72C19FB2CBA5679002988F3 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7221E342CBB4425009A4517 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C72C19F02CBA3B41002988F3 /* AuthService.swift */,
+				C72C19FF2CBA5803002988F3 /* AuthResources.swift */,
+				C791CD0B2CBC319600328BC2 /* UserDetailsResource.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C72C19D42CBA34F5002988F3 = {
+			isa = PBXGroup;
+			children = (
+				C72C19DF2CBA34F5002988F3 /* AuthMovieDB */,
+				C7C74D252CBF5EE000B84872 /* AuthMovieDBTests */,
+				C72C19DE2CBA34F5002988F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C72C19DE2CBA34F5002988F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C72C19DD2CBA34F5002988F3 /* AuthMovieDB.app */,
+				C7C74D242CBF5EE000B84872 /* AuthMovieDBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C72C19DF2CBA34F5002988F3 /* AuthMovieDB */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF75322CBC9C4E00A056A4 /* App */,
+				C72C19FA2CBA5453002988F3 /* Core */,
+				C74F14792CBDAC0C000838C6 /* Shared */,
+				C72C19E62CBA34F6002988F3 /* Preview Content */,
+				C7D1D55F2CBAFF0200E7419C /* Info.plist */,
+				C72C19E42CBA34F6002988F3 /* Assets.xcassets */,
+			);
+			path = AuthMovieDB;
+			sourceTree = "<group>";
+		};
+		C72C19E62CBA34F6002988F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEFBB82CBEDCF6008F3FAD /* UserDetails.json */,
+				C7BEFBB62CBEDC0D008F3FAD /* PreviewData.swift */,
+				C72C19E72CBA34F6002988F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C72C19F42CBA5326002988F3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C72C19F22CBA5294002988F3 /* NetworkManager.swift */,
+				C72C19F52CBA5355002988F3 /* HTTPResource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C72C19F72CBA53E8002988F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C7221E2B2CBB3447009A4517 /* Errors.swift */,
+				C72C19F82CBA53F6002988F3 /* APIConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C72C19FA2CBA5453002988F3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF75332CBC9DD700A056A4 /* Auth */,
+				C7AF75342CBC9E0600A056A4 /* Profile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C74F14792CBDAC0C000838C6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEFBBC2CBEE39E008F3FAD /* Mocks */,
+				C72C19F72CBA53E8002988F3 /* Helpers */,
+				C74F147A2CBDAC63000838C6 /* Storage */,
+				C72C19F42CBA5326002988F3 /* Networking */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C74F147A2CBDAC63000838C6 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C74F147B2CBDAC80000838C6 /* KeychainManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		C7AF75322CBC9C4E00A056A4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C72C19E22CBA34F5002988F3 /* ContentView.swift */,
+				C72C19E02CBA34F5002988F3 /* AuthMovieDBApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C7AF75332CBC9DD700A056A4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C7221E312CBB43B1009A4517 /* Model */,
+				C7221E322CBB43C9009A4517 /* View */,
+				C7221E332CBB43D9009A4517 /* ViewModel */,
+				C7221E342CBB4425009A4517 /* Service */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C7AF75342CBC9E0600A056A4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C7221E2D2CBB438E009A4517 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C7BEFBBC2CBEE39E008F3FAD /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEFBBA2CBEDEE2008F3FAD /* MockAuthService.swift */,
+				C7BEFBBD2CBEE3B8008F3FAD /* MockKeychainManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C7C74D252CBF5EE000B84872 /* AuthMovieDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C74D2D2CBF5FDC00B84872 /* AuthServiceTests.swift */,
+			);
+			path = AuthMovieDBTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C72C19DC2CBA34F5002988F3 /* AuthMovieDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72C19EB2CBA34F6002988F3 /* Build configuration list for PBXNativeTarget "AuthMovieDB" */;
+			buildPhases = (
+				C72C19D92CBA34F5002988F3 /* Sources */,
+				C72C19DA2CBA34F5002988F3 /* Frameworks */,
+				C72C19DB2CBA34F5002988F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthMovieDB;
+			packageProductDependencies = (
+				C74F14772CBDABF4000838C6 /* KeychainSwift */,
+			);
+			productName = AuthMovieDB;
+			productReference = C72C19DD2CBA34F5002988F3 /* AuthMovieDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7C74D232CBF5EE000B84872 /* AuthMovieDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C74D2C2CBF5EE000B84872 /* Build configuration list for PBXNativeTarget "AuthMovieDBTests" */;
+			buildPhases = (
+				C7C74D202CBF5EE000B84872 /* Sources */,
+				C7C74D212CBF5EE000B84872 /* Frameworks */,
+				C7C74D222CBF5EE000B84872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C74D292CBF5EE000B84872 /* PBXTargetDependency */,
+			);
+			name = AuthMovieDBTests;
+			productName = AuthMovieDBTests;
+			productReference = C7C74D242CBF5EE000B84872 /* AuthMovieDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C72C19D52CBA34F5002988F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C72C19DC2CBA34F5002988F3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C7C74D232CBF5EE000B84872 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C72C19DC2CBA34F5002988F3;
+					};
+				};
+			};
+			buildConfigurationList = C72C19D82CBA34F5002988F3 /* Build configuration list for PBXProject "AuthMovieDB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C72C19D42CBA34F5002988F3;
+			packageReferences = (
+				C74F14762CBDABF4000838C6 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
+			productRefGroup = C72C19DE2CBA34F5002988F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C72C19DC2CBA34F5002988F3 /* AuthMovieDB */,
+				C7C74D232CBF5EE000B84872 /* AuthMovieDBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C72C19DB2CBA34F5002988F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72C19E82CBA34F6002988F3 /* Preview Assets.xcassets in Resources */,
+				C72C19E52CBA34F6002988F3 /* Assets.xcassets in Resources */,
+				C7BEFBB92CBEDCF6008F3FAD /* UserDetails.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C74D222CBF5EE000B84872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C72C19D92CBA34F5002988F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72C19F62CBA5355002988F3 /* HTTPResource.swift in Sources */,
+				C7BEFBBE2CBEE3B8008F3FAD /* MockKeychainManager.swift in Sources */,
+				C72C19F32CBA5294002988F3 /* NetworkManager.swift in Sources */,
+				C7BEFBBB2CBEDEE2008F3FAD /* MockAuthService.swift in Sources */,
+				C72C19E32CBA34F5002988F3 /* ContentView.swift in Sources */,
+				C72C19FC2CBA5679002988F3 /* AuthViewModel.swift in Sources */,
+				C72C19E12CBA34F5002988F3 /* AuthMovieDBApp.swift in Sources */,
+				C7D3783D2CBB8749002422AB /* UserModel.swift in Sources */,
+				C7221E2E2CBB438E009A4517 /* ProfileView.swift in Sources */,
+				C74F147C2CBDAC80000838C6 /* KeychainManager.swift in Sources */,
+				C7BEFBB72CBEDC0D008F3FAD /* PreviewData.swift in Sources */,
+				C7221E302CBB43A7009A4517 /* LoginView.swift in Sources */,
+				C72C19FE2CBA5751002988F3 /* AuthModels.swift in Sources */,
+				C7221E2C2CBB3447009A4517 /* Errors.swift in Sources */,
+				C72C1A002CBA5803002988F3 /* AuthResources.swift in Sources */,
+				C72C19F12CBA3B41002988F3 /* AuthService.swift in Sources */,
+				C72C19F92CBA53F6002988F3 /* APIConstants.swift in Sources */,
+				C791CD0C2CBC319600328BC2 /* UserDetailsResource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C74D202CBF5EE000B84872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C74D2E2CBF5FDC00B84872 /* AuthServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7C74D292CBF5EE000B84872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C72C19DC2CBA34F5002988F3 /* AuthMovieDB */;
+			targetProxy = C7C74D282CBF5EE000B84872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C72C19E92CBA34F6002988F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C72C19EA2CBA34F6002988F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C72C19EC2CBA34F6002988F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AuthMovieDB/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthMovieDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivansaul.AuthMovieDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C72C19ED2CBA34F6002988F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AuthMovieDB/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthMovieDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivansaul.AuthMovieDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7C74D2A2CBF5EE000B84872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivansaul.AuthMovieDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthMovieDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AuthMovieDB";
+			};
+			name = Debug;
+		};
+		C7C74D2B2CBF5EE000B84872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivansaul.AuthMovieDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthMovieDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AuthMovieDB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C72C19D82CBA34F5002988F3 /* Build configuration list for PBXProject "AuthMovieDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72C19E92CBA34F6002988F3 /* Debug */,
+				C72C19EA2CBA34F6002988F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72C19EB2CBA34F6002988F3 /* Build configuration list for PBXNativeTarget "AuthMovieDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72C19EC2CBA34F6002988F3 /* Debug */,
+				C72C19ED2CBA34F6002988F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C74D2C2CBF5EE000B84872 /* Build configuration list for PBXNativeTarget "AuthMovieDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C74D2A2CBF5EE000B84872 /* Debug */,
+				C7C74D2B2CBF5EE000B84872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C74F14762CBDABF4000838C6 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C74F14772CBDABF4000838C6 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C74F14762CBDABF4000838C6 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C72C19D52CBA34F5002988F3 /* Project object */;
+}

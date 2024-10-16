@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 MD036 MD041 MD045 MD046 -->
+
 <div align="center">
 
 <h1 style="border-bottom: none">
@@ -20,6 +22,12 @@ A collection of components that can be used in your SwiftUI project.
 <img src="https://github.com/user-attachments/assets/f84029fa-4a54-4b73-b2d2-16324aefa9d6" width="50%">
 </div>
 
+[**`> AuthMovieDB/`**][AuthMovieDB]
+
+<div align="center">
+<img src="Resources/AuthMovieDB.gif" width="50%">
+</div>
+
 ## Contribute
 
 Contributions are welcome.
@@ -38,3 +46,4 @@ MIT
 
 [discord]: https://discord.com/users/744755977684779038
 [issue]: https://github.com/ivansaul/Flutter-UI-Kit/issues
+[AuthMovieDB]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/AuthMovieDB
