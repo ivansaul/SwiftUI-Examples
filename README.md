@@ -22,7 +22,7 @@ A collection of examples project using ***`SwiftUI`***, ***`Combine`***, ***`Asy
 > A simple example demonstrating how to create a side menu with SwiftUI, featuring support for both light and dark modes.
 
 <div align="center">
-<img src="Resources/SideMenu.gif" width="50%">
+<img src="Resources/SideMenu.gif">
 </div>
 
 ### [*`> AuthMovieDB/`*][AuthMovieDB]
@@ -31,7 +31,7 @@ A collection of examples project using ***`SwiftUI`***, ***`Combine`***, ***`Asy
 > A simple example demonstrating how to authenticate with third-party services. This case uses `The Movie DB (TMDB)` API, showcasing the integration of an authentication service, secure session storage, and user profile management.
 
 <div align="center">
-<img src="Resources/AuthMovieDB.gif" width="50%">
+<img src="Resources/AuthMovieDB.gif">
 </div>
 
 ## Contribute
