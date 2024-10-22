@@ -34,6 +34,15 @@ A collection of examples project using ***`SwiftUI`***, ***`Combine`***, ***`Asy
 <img src="Resources/AuthMovieDB.gif">
 </div>
 
+### [*`> StickyHeader/`*][StickyHeader]
+
+> [!NOTE]
+> A simple example demonstrating how to create a custom header. The header's appearance is dynamically controlled using a timer to track the scroll position and apply animation for a smooth transition. Credits to [**@kvsof**][kvsof-sticky-header] for the original implementation.
+
+<div align="center">
+<img src="Resources/StickyHeader.gif">
+</div>
+
 ### [*`> SideMenu/`*][SideMenu]
 
 > [!NOTE]
@@ -63,4 +72,6 @@ MIT
 [issue]: https://github.com/ivansaul/Flutter-UI-Kit/issues
 [AuthFirebase]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/AuthFirebase
 [AuthMovieDB]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/AuthMovieDB
+[StickyHeader]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/StickyHeader
 [SideMenu]: https://github.com/ivansaul/SwiftUI-Examples/tree/master/Projects/SideMenu
+[kvsof-sticky-header]: https://youtu.be/PQD6z0bNeHo?si=AFEOpWxrKvQ3qGgK
